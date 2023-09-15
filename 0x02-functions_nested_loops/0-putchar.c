@@ -1,4 +1,4 @@
-#include "main.h"
+#include <main.h>
 
 /**
  * main - prints _putchar with new line.
@@ -6,17 +6,18 @@
  * Return: 0
  */
 
-int main(void)
+  
+int main()
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-
-	return (0);
+  
+    // Get the character to be written
+    char ch = 'G';
+  
+    // Write the Character to stdout
+    putchar("%c\n", ch);
+  
+    return (0);
 }
+
+:wq
+

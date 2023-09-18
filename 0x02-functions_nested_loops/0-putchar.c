@@ -6,18 +6,18 @@
  * Return: 0
  */
 
-  
-int main()
+int main(void)
 {
-  
-    // Get the character to be written
-    char ch = 'G';
-  
-    // Write the Character to stdout
-    putchar("%c\n", ch);
-  
-    return (0);
-}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-:wq
+	return (0);
+}
 
